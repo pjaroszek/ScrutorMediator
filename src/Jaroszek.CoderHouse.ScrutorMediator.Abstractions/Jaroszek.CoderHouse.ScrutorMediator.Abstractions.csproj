@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Informacje o paczce NuGet -->
+    <PackageId>Jaroszek.CoderHouse.ScrutorMediator.Abstractions</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Jaroszek</Authors>
+    <Company>CoderHouse</Company>
+    <Description>Interfaces for Scrutor-based Mediator implementation. Provides CQRS pattern support without MediatR dependency.</Description>
+    <PackageTags>mediator;scrutor;cqrs;clean-architecture</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jaroszek/scrutor-replace-mediatr-poc</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jaroszek/scrutor-replace-mediatr-poc</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- Generowanie dokumentacji XML -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
