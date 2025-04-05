@@ -8,9 +8,10 @@
 
     <!-- Informacje o paczce NuGet -->
     <PackageId>Jaroszek.CoderHouse.ScrutorMediator.Abstractions</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Jaroszek</Authors>
     <Company>CoderHouse</Company>
+    <PackageProjectUrl>https://github.com/pjaroszek/ScrutorMediator</PackageProjectUrl>
     <Description>Interfaces for Scrutor-based Mediator implementation. Provides CQRS pattern support without MediatR dependency.</Description>
     <PackageTags>mediator;scrutor;cqrs;clean-architecture</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
